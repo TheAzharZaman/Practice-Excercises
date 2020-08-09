@@ -10,6 +10,8 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 require('./main.css');
 
+require('./bg.css');
+
 var _serviceWorker = require('./serviceWorker');
 
 var serviceWorker = _interopRequireWildcard(_serviceWorker);
@@ -24,8 +26,18 @@ var RootComponent = function RootComponent() {
     { className: 'Root-container' },
     _react2.default.createElement(
       'h1',
-      null,
-      'Hello Setted Up'
+      { className: 'Heading' },
+      'Lets Do It'
+    ),
+    _react2.default.createElement(
+      'p',
+      { className: 'Para' },
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad illum, veniam molestias praesentium minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad illum, veniam molestias praesentium minus.'
+    ),
+    _react2.default.createElement(
+      'button',
+      { className: 'Btn', href: 'https://googel.com' },
+      'Contact'
     )
   );
 };

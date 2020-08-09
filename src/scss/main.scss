@@ -5,3 +5,54 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+.Root-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 10px inset rgb(165, 162, 162);
+    background: rgba(0,0,0,.3);
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    width: 45%;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.Heading{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #fff;
+}
+
+.Para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Btn{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 35px;
+    font-weight: 500;
+    font-size: 21px;
+    outline: none;
+    background-color: rgb(61, 61, 202);
+    margin: 2.5rem 0 .5rem 13.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 4.5px 4px rgb(48, 46, 46);
+    transition: background-color .3s;
+    
+
+    &:hover{
+        background-color: rgb(41, 41, 190);
+        box-shadow: 0px 1px 1px inset rgb(104, 104, 104);
+    }
+}
