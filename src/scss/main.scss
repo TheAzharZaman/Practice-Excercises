@@ -5,3 +5,35 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+    
+body{
+    background-color: rgb(239, 248, 250);
+}
+
+.Main-container{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(239, 248, 250);
+    border-radius: 35px;
+    margin: 5rem auto 0;
+    box-shadow: 6px 6px 10px -1.2px rgba(0, 0, 0, .15),
+                -6px -6px 10px -1.4px rgba(255, 255, 255, .8);
+
+    .Texture{
+        display: flex;
+        flex-direction: row;
+        padding: 2.5rem 2rem 2rem 3rem;
+        border-bottom: 1.2px solid #ccc;
+
+        input{
+            margin-right: 1rem;
+            size: 30px;
+            margin-top: .3rem;
+        }
+
+        .Placeholder{
+            font-size: 18px;
+        }
+    }             
+}

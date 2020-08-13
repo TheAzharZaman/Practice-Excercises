@@ -6,4 +6,40 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+body {
+  background-color: #eff8fa;
+}
+
+.Main-container {
+  width: 350px;
+  height: 600px;
+  background-color: #eff8fa;
+  border-radius: 35px;
+  margin: 5rem auto 0;
+  -webkit-box-shadow: 6px 6px 10px -1.2px rgba(0, 0, 0, 0.15), -6px -6px 10px -1.4px rgba(255, 255, 255, 0.8);
+          box-shadow: 6px 6px 10px -1.2px rgba(0, 0, 0, 0.15), -6px -6px 10px -1.4px rgba(255, 255, 255, 0.8);
+}
+
+.Main-container .Texture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2.5rem 2rem 2rem 3rem;
+  border-bottom: 1.2px solid #ccc;
+}
+
+.Main-container .Texture input {
+  margin-right: 1rem;
+  size: 30px;
+  margin-top: .3rem;
+}
+
+.Main-container .Texture .Placeholder {
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */
