@@ -23,14 +23,15 @@
 
 .Heading {
   font-size: 60px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   color: #fff;
 }
 
 .Para {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
+  letter-spacing: 0.5px;
   font-size: 21px;
   color: #fff;
   text-align: center;
@@ -39,20 +40,20 @@
 
 .Btn {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   padding: 15px 35px;
   font-weight: 500;
   font-size: 21px;
   outline: none;
   background-color: #3d3dca;
-  margin: 2.5rem 0 .5rem 13.5rem;
+  margin: 2.5rem 0 0.5rem 13.5rem;
   border: none;
   color: #fff;
   border-radius: 3px;
   -webkit-box-shadow: 0px 4.5px 4px #302e2e;
           box-shadow: 0px 4.5px 4px #302e2e;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .Btn:hover {
