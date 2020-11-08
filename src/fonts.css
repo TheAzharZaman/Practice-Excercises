@@ -1,0 +1,44 @@
+@font-face {
+  src: url(./fonts/PublicSans/PublicSans.ttf);
+  font-family: Public Sans;
+}
+
+@font-face {
+  src: url(./fonts/Poppins/Poppins300.ttf);
+  font-family: Poppins300;
+}
+
+@font-face {
+  src: url(./fonts/Poppins/Poppins400.ttf);
+  font-family: Poppins400;
+}
+
+@font-face {
+  src: url(./fonts/Poppins/Poppins500.ttf);
+  font-family: Poppins500;
+}
+
+@font-face {
+  src: url(./fonts/Poppins/Poppins600.ttf);
+  font-family: Poppins600;
+}
+
+@font-face {
+  src: url(./fonts/Poppins/Poppins700.ttf);
+  font-family: Poppins700;
+}
+
+@font-face {
+  src: url(./fonts/Roboto/Roboto300.ttf);
+  font-family: Roboto300;
+}
+
+@font-face {
+  src: url(./fonts/Roboto/Roboto400.ttf);
+  font-family: Roboto400;
+}
+
+@font-face {
+  src: url(./fonts/Roboto/Roboto700.ttf);
+  font-family: Roboto700;
+}

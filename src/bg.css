@@ -5,6 +5,13 @@
       rgba(13, 65, 107, 0.288)
     ),
     url("./blank.jpg") no-repeat center center;
+  background: linear-gradient(
+      90deg,
+      rgba(7, 143, 255, 0.288),
+      rgba(7, 143, 255, 0.288)
+    ),
+    url("./blank.jpg") no-repeat center center;
+
   background-size: cover;
   height: 100vh;
 }
